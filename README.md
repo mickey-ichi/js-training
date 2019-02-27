@@ -1,5 +1,6 @@
 # js-training
 
+## Front-end
 
 #### 1. Responsive Web Design Certification
 - [Basic HTML and HTML5](https://learn.freecodecamp.org/responsive-web-design/basic-html-and-html5)
@@ -43,7 +44,8 @@
 - [JSON APIs and Ajax](https://learn.freecodecamp.org/data-visualization/json-apis-and-ajax)
   <br />
   <br />
-
+  
+## Backend
 #### 5. APIs and Microservices Certification
 
 - [Managing Packages with Npm](https://learn.freecodecamp.org/apis-and-microservices/managing-packages-with-npm)
