@@ -1,5 +1,3 @@
-# js-training
-
 ## Front-end
 
 #### 1. Responsive Web Design Certification
