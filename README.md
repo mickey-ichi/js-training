@@ -1,5 +1,6 @@
 ## Idea, mindset
 - Multiple package in a project? (how to optimize to use it in small project?): use [lernajs](https://lernajs.io/) to config multiple package in a repo (monorepo) 
+- Using [flow](https://flow.org/en/docs/react/) for all project (FLOW IS A STATIC TYPE CHECKER FOR JAVASCRIPT.)
 
 ## Front-end
 
