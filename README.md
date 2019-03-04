@@ -1,3 +1,6 @@
+## Idea, mindset
+- Multiple package in a project? (how to optimize to use it in small project?): use [lernajs](https://lernajs.io/) to config multiple package in a repo (monorepo) 
+
 ## Front-end
 
 #### 1. Responsive Web Design Certification
