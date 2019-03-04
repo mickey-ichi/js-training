@@ -46,7 +46,7 @@
 - [JSON APIs and Ajax](https://learn.freecodecamp.org/data-visualization/json-apis-and-ajax)
   <br />
   <br />
-#### 5 Starter kit 
+#### 5 Starter kit for React
 - [react-boilerplate](https://github.com/react-boilerplate/react-boilerplate) Quick setup for performance orientated, offline-first React.js applications featuring Redux, hot-reloading, PostCSS, react-router, ServiceWorker, AppCache, FontFaceObserver and Mocha.
 - [Next.js](https://nextjs.org/) - Framework for server-rendered or statically-exported React apps
 - [Create React App](https://github.com/facebook/create-react-app) An officially supported way to start a client-side React project with no configuration
