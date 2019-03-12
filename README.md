@@ -2,6 +2,7 @@
 - Multiple package in a project? (how to optimize to use it in small project?): use [lernajs](https://lernajs.io/) to config multiple package in a repo (monorepo) 
 - Using [Typescript](https://www.typescriptlang.org/)
 - When you using immutable should be using [react-immutable-proptypes](https://www.npmjs.com/package/react-immutable-proptypes)
+- Component vs Container [gist](https://gist.github.com/chantastic/fc9e3853464dffdb1e3c)
 ## Front-end
 
 #### 1. Responsive Web Design Certification
