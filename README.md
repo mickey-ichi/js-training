@@ -1,6 +1,7 @@
 ## Idea
 - Multiple package in a project? (how to optimize to use it in small project?): use [lernajs](https://lernajs.io/) to config multiple package in a repo (monorepo) 
 Example
+```
 /web-clients
 ├── package.json
 └── packages
@@ -14,7 +15,7 @@ Example
     │   └── package.json
     └── something-else
         └── package.json
-
+```
 - Using [Typescript](https://www.typescriptlang.org/)
 - When you using immutable should be using [react-immutable-proptypes](https://www.npmjs.com/package/react-immutable-proptypes)
 - Component vs Container [gist](https://gist.github.com/chantastic/fc9e3853464dffdb1e3c)
