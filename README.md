@@ -26,6 +26,7 @@ Example
 | ---- package.json
 | package.json
 ```
+[readmore](https://medium.com/@luisvieira_gmr/building-large-scale-react-applications-in-a-monorepo-91cd4637c131)
 - Using [Typescript](https://www.typescriptlang.org/)
 - When you using immutable should be using [react-immutable-proptypes](https://www.npmjs.com/package/react-immutable-proptypes)
 - Component vs Container [gist](https://gist.github.com/chantastic/fc9e3853464dffdb1e3c)
