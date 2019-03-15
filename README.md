@@ -2,19 +2,29 @@
 - Multiple package in a project? (how to optimize to use it in small project?): use [lernajs](https://lernajs.io/) to config multiple package in a repo (monorepo) 
 Example
 ```
-/web-clients
-├── package.json
-└── packages
-    ├── api
-    │   └── package.json
-    ├── components
-    │   └── package.json
-    ├── cra-app-1
-    │   └── package.json
-    ├── cra-app-2
-    │   └── package.json
-    └── something-else
-        └── package.json
+// A cross platform react application
+| components/
+| -- comp-1
+| ---- index.js
+| ---- package.json
+| -- comp-2
+| ---- index.js
+| ---- package.json
+| apps/
+| -- app-web
+| ---- index.js
+| ---- package.json
+| -- app-ios
+| ---- index.js
+| ---- package.json
+| api/
+| -- api-1
+| ---- index.js
+| ---- package.json
+| -- api-2
+| ---- index.js
+| ---- package.json
+| package.json
 ```
 - Using [Typescript](https://www.typescriptlang.org/)
 - When you using immutable should be using [react-immutable-proptypes](https://www.npmjs.com/package/react-immutable-proptypes)
