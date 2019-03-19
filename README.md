@@ -79,6 +79,7 @@ Example
 - [Next.js](https://nextjs.org/) - Framework for server-rendered or statically-exported React apps
 - [Create React App](https://github.com/facebook/create-react-app) An officially supported way to start a client-side React project with no configuration or version [typescript](https://github.com/Microsoft/TypeScript-React-Starter)
 #### 6 Coding convention for [React](https://github.com/airbnb/javascript/tree/master/react)
+- [eslint-plugin-react](https://www.npmjs.com/package/eslint-plugin-react)
 ## Backend
 #### 5. APIs and Microservices Certification
 
