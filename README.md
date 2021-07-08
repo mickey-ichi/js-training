@@ -48,7 +48,7 @@
 - Promise all là gì dùng khi nào
 
 
-#### 7 GIT traning 
+#### 7 GIT training 
 - command git 
 - git flow
 - Create pull request
