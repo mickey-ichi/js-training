@@ -52,5 +52,5 @@
 - command git 
 - git flow
 - Create pull request
-- Reslve confilict
+- Resolve conflict
 
