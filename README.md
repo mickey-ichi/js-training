@@ -41,3 +41,16 @@
 - [Create React App](https://github.com/facebook/create-react-app) An officially supported way to start a client-side React project with no configuration or version [typescript](https://github.com/Microsoft/TypeScript-React-Starter)
 #### 6 Coding convention for [React](https://github.com/airbnb/javascript/tree/master/react)
 - [eslint-plugin-react](https://www.npmjs.com/package/eslint-plugin-react)
+
+
+#### 6 Promise traning 
+- Promise là gì, khái niệm và ví dụ thực tế
+- Promise all là gì dùng khi nào
+
+
+#### 7 GIT traning 
+- command git 
+- git flow
+- Create pull request
+- Reslve confilict
+
