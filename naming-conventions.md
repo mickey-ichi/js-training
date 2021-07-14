@@ -29,13 +29,13 @@ Naming convention for boolean value
 ​
 | Place | Word | Meaning| Example|
 |---|---|---|---|
-| Tiền tố	 | is | Đang ở trong trạng thái gì không ?	 | isEnabled |
-| Tiền tố	 | can | Có thể xử lí được không?	 | canRemove |
-| Tiền tố	 | should | Có nên thực hiện lệnh không?| shouldMigrate |
-| Tiền tố	 | need | Có cần thực hiện gì không?| needFileCopy |
-| Tiền tố	 | has | Có cái data/ properties mong muốn không| hasConnection |
-| Tiền tố	 | exists | Có tồn tại data hoặc properties mong muốn không?| exists(dir) |
-| Tiền tố	 | contains | Có chứa data hay properties không?| contains(item) |
+| Prefix	 | is | Đang ở trong trạng thái gì không ?	 | isEnabled |
+| Prefix	 | can | Có thể xử lí được không?	 | canRemove |
+| Prefix	 | should | Có nên thực hiện lệnh không?| shouldMigrate |
+| Prefix	 | need | Có cần thực hiện gì không?| needFileCopy |
+| Prefix	 | has | Có cái data/ properties mong muốn không| hasConnection |
+| Prefix	 | exists | Có tồn tại data hoặc properties mong muốn không?| exists(dir) |
+| Prefix	 | contains | Có chứa data hay properties không?| contains(item) |
 
 
 2.Naming convention for action related to string value 
@@ -46,14 +46,14 @@ string value
 ​
 | Place | Word | Meaning| Example|
 |---|---|---|---|
-| Tiền tố	 | find | Tìm thông tin(tiền đề cho việc có thể tìm thấy)| findString |
-| Tiền tố	 | search | Tìm thông tin(tiền đề cho việc không thể tìm thấy)| searchString |
-| Tiền tố	 | seek | Tìm thông tin liên tục theo thứ tự| file.seek() |
-| Tiền tố	 | extract | Extract thông tin theo điều kiện| hash.extract() |
-| Tiền tố	 | filter | Loại trừ thông tin theo các điều kiện nhất định| filter() |
-| Tiền tố	 | replace | Thay thế dữ liệu hiện có| String.replace() |
-| Tiền tố	 | join | Kết hợp dữ liệu hiện có| String.join() |
-| Tiền tố	 | parse | Phân tích dữ liệu hiện có| String.Parse() |
+| Prefix	 | find | Tìm thông tin(tiền đề cho việc có thể tìm thấy)| findString |
+| Prefix	 | search | Tìm thông tin(tiền đề cho việc không thể tìm thấy)| searchString |
+| Prefix	 | seek | Tìm thông tin liên tục theo thứ tự| file.seek() |
+| Prefix	 | extract | Extract thông tin theo điều kiện| hash.extract() |
+| Prefix	 | filter | Loại trừ thông tin theo các điều kiện nhất định| filter() |
+| Prefix	 | replace | Thay thế dữ liệu hiện có| String.replace() |
+| Prefix	 | join | Kết hợp dữ liệu hiện có| String.join() |
+| Prefix	 | parse | Phân tích dữ liệu hiện có| String.Parse() |
 
 
 3.Naming convention for data manipulation (add) 
@@ -63,20 +63,20 @@ Naming convention for data manipulation (add)
 ​
 | Place | Word | Meaning| Example|
 |---|---|---|---|
-| Tiền tố	 | set | Set data | setProperty |
-| Tiền tố	 | add | Thêm data hoặc object| addList |
-| Tiền tố	 | put | Thêm data hoặc object| hash.put(key,value) |
-| Tiền tố	 | insert | Chèn data hoặc object| insertQueue |
-| Tiền tố	 | append | Thêm data hoặc object vào cuối| appendQueue |
-| Tiền tố	 | push | Thêm data hoặc object vào vị trí đầu| pushQueue |
-| Tiền tố	 | prepend | Thêm data hoặc object vào vị trí đầu| prependQueue |
-| Tiền tố	 | register | Đăng kí data hoặc object| registerStorage |
-| Tiền tố	 | create | Tạo data hoặc file mới| createAccount |
-| Tiền tố	 | new | Tạo data hoặc file mới| newAccount |
-| Tiền tố	 | make | Xử lí data cũ để tạo data hoặc file mới| makeFile |
-| Tiền tố	 | build | Tập hợp dữ liệu và tệp từ dữ liệu hiện có| buildFile |
-| Tiền tố	 | from | Sử dụng data hiện có để tạo file hoặc data| fromConfigFile |
-| Tiền tố	 | generate | Tạo file hoặc data theo 1 rule nào đó| generateFile |
+| Prefix	 | set | Set data | setProperty |
+| Prefix	 | add | Thêm data hoặc object| addList |
+| Prefix	 | put | Thêm data hoặc object| hash.put(key,value) |
+| Prefix	 | insert | Chèn data hoặc object| insertQueue |
+| Prefix	 | append | Thêm data hoặc object vào cuối| appendQueue |
+| Prefix	 | push | Thêm data hoặc object vào vị trí đầu| pushQueue |
+| Prefix	 | prepend | Thêm data hoặc object vào vị trí đầu| prependQueue |
+| Prefix	 | register | Đăng kí data hoặc object| registerStorage |
+| Prefix	 | create | Tạo data hoặc file mới| createAccount |
+| Prefix	 | new | Tạo data hoặc file mới| newAccount |
+| Prefix	 | make | Xử lí data cũ để tạo data hoặc file mới| makeFile |
+| Prefix	 | build | Tập hợp dữ liệu và tệp từ dữ liệu hiện có| buildFile |
+| Prefix	 | from | Sử dụng data hiện có để tạo file hoặc data| fromConfigFile |
+| Prefix	 | generate | Tạo file hoặc data theo 1 rule nào đó| generateFile |
 
 
 4.Naming convention for data manipulation (update)
@@ -86,24 +86,24 @@ Naming convention for data manipulation(update)
 ​
 | Place | Word | Meaning| Example|
 |---|---|---|---|
-| Tiền tố	 | update | Update data cũ| updateAccount |
-| Tiền tố	 | upgrade | Thay đổi data thành cái tốt hơn| upgradeAccount |
-| Tiền tố	 | apply | Áp dụng data có sẵn| applyAccount|
-| Tiền tố	 | refresh | Cập nhật lại data cũ| refreshAccount |
-| Tiền tố	 | changed | Thay đổi data hiện có| changedAccount |
-| Tiền tố	 | modified | Sửa data có sẵn| modifiedAccount |
-| Tiền tố	 | revised | Sửa data có sẵn| revisedAccount |
-| Tiền tố	 | enable | Enable khả năng sử dụng của data có sẵn| enableAccount |
-| Tiền tố	 | disable | Disable khả năng sử dụng của data có sẵn| disableAccount |
-| Tiền tố	 | fix | Giải quyết vấn đề của data| fixAccount |
-| Tiền tố	 | repair | Sửa data| repairAccount |
-| Tiền tố	 | restore | Restore data| restoreAccount |
-| Tiền tố	 | recover | Recover data| recoverAccount |
-| Tiền tố	 | edit | Edit data| editAccount |
-| Tiền tố	 | adjust | Điều chỉnh data| adjustString |
-| Tiền tố	 | adapt | Điều chỉnh dữ liệu hiện có| adaptString |
-| Tiền tố	 | convert | Chuyển đổi dữ liệu hiện có| convertString |
-| Tiền tố	 | to | Chuyển đổi dữ liệu hiện có sang cái gì| toString |
+| Prefix	 | update | Update data cũ| updateAccount |
+| Prefix	 | upgrade | Thay đổi data thành cái tốt hơn| upgradeAccount |
+| Prefix	 | apply | Áp dụng data có sẵn| applyAccount|
+| Prefix	 | refresh | Cập nhật lại data cũ| refreshAccount |
+| Prefix	 | changed | Thay đổi data hiện có| changedAccount |
+| Prefix	 | modified | Sửa data có sẵn| modifiedAccount |
+| Prefix	 | revised | Sửa data có sẵn| revisedAccount |
+| Prefix	 | enable | Enable khả năng sử dụng của data có sẵn| enableAccount |
+| Prefix	 | disable | Disable khả năng sử dụng của data có sẵn| disableAccount |
+| Prefix	 | fix | Giải quyết vấn đề của data| fixAccount |
+| Prefix	 | repair | Sửa data| repairAccount |
+| Prefix	 | restore | Restore data| restoreAccount |
+| Prefix	 | recover | Recover data| recoverAccount |
+| Prefix	 | edit | Edit data| editAccount |
+| Prefix	 | adjust | Điều chỉnh data| adjustString |
+| Prefix	 | adapt | Điều chỉnh dữ liệu hiện có| adaptString |
+| Prefix	 | convert | Chuyển đổi dữ liệu hiện có| convertString |
+| Prefix	 | to | Chuyển đổi dữ liệu hiện có sang cái gì| toString |
 
 
 5.Naming convention for data manipulation(delete) 
@@ -113,24 +113,24 @@ Naming convention for data manipulation(delete)
 ​
 | Place | Word | Meaning| Example|
 |---|---|---|---|
-| Tiền tố	 | delete | Xoá data hiện có( không revert được)|deleteAccount
-| Tiền tố	 | remove | Xoá data hiện có(revert được)| removeAccount |
-| Tiền tố	 | trash | Xoá data hiện có(có revert được)| trashAccount|
-| Tiền tố	 | erase | Xóa dữ liệu hiện có (có thể ghi lại)| eraseAccount |
-| Tiền tố	 | clear | Clear data hiện có về trạng thái khởi tạo| clearAccount |
-| Tiền tố	 | flush | Xoá data về trạng thái ban đầu| flushAccount |
-| Tiền tố	 | reset | Reset data về trạng thái ban đầu| resetAccount |
-| Tiền tố	 | dispose | Giải phóng dữ liệu hiện có(có thể tái sử dụng)| disposeAccount |
-| Tiền tố	 | destroy | Loại bỏ dữ liệu hiện có (không thể sử dụng lại)| destroyAccount |
-| Tiền tố	 | unregister | Hủy dữ liệu đã đăng ký| unregisterStorage |
-| Tiền tố	 | unset | Bỏ định nghĩa data đã được định nghĩa| unsetAccount |
-| Tiền tố	 | pop | Trích xuất và loại bỏ dữ liệu đầu tiên| popQueue |
-| Tiền tố	 | initialize | Khởi tạo dữ liệu hiện có| initialize() |
-| Tiền tố	 | edit | Edit data| editAccount |
-| Tiền tố	 | adjust | Điều chỉnh data| adjustString |
-| Tiền tố	 | adapt | Điều chỉnh dữ liệu hiện có| adaptString |
-| Tiền tố	 | convert | Chuyển đổi dữ liệu hiện có| convertString |
-| Tiền tố	 | to | Chuyển đổi dữ liệu hiện có sang cái gì| toString |
+| Prefix	 | delete | Xoá data hiện có( không revert được)|deleteAccount
+| Prefix	 | remove | Xoá data hiện có(revert được)| removeAccount |
+| Prefix	 | trash | Xoá data hiện có(có revert được)| trashAccount|
+| Prefix	 | erase | Xóa dữ liệu hiện có (có thể ghi lại)| eraseAccount |
+| Prefix	 | clear | Clear data hiện có về trạng thái khởi tạo| clearAccount |
+| Prefix	 | flush | Xoá data về trạng thái ban đầu| flushAccount |
+| Prefix	 | reset | Reset data về trạng thái ban đầu| resetAccount |
+| Prefix	 | dispose | Giải phóng dữ liệu hiện có(có thể tái sử dụng)| disposeAccount |
+| Prefix	 | destroy | Loại bỏ dữ liệu hiện có (không thể sử dụng lại)| destroyAccount |
+| Prefix	 | unregister | Hủy dữ liệu đã đăng ký| unregisterStorage |
+| Prefix	 | unset | Bỏ định nghĩa data đã được định nghĩa| unsetAccount |
+| Prefix	 | pop | Trích xuất và loại bỏ dữ liệu đầu tiên| popQueue |
+| Prefix	 | initialize | Khởi tạo dữ liệu hiện có| initialize() |
+| Prefix	 | edit | Edit data| editAccount |
+| Prefix	 | adjust | Điều chỉnh data| adjustString |
+| Prefix	 | adapt | Điều chỉnh dữ liệu hiện có| adaptString |
+| Prefix	 | convert | Chuyển đổi dữ liệu hiện có| convertString |
+| Prefix	 | to | Chuyển đổi dữ liệu hiện có sang cái gì| toString |
 
 
 6.Naming convention for data manipulation(write)
@@ -140,13 +140,13 @@ Naming convention for data manipulation(write)
 ​
 | Place | Word | Meaning| Example|
 |---|---|---|---|
-| Tiền tố	 | save | Lưu data hiện có|saveAccount
-| Tiền tố	 | output | Xuất dữ liệu hiện có| outputAccount |
-| Tiền tố	 | export | Xuất dữ liệu hiện có| exportAccount|
-| Tiền tố	 | write | Write dữ liệu hiện có| writeAccount |
-| Tiền tố	 | store | Store dữ liệu hiện có| storeAccount |
-| Tiền tố	 | send | Gửi data hiện có| sendAccount |
-| Tiền tố	 | commit | Xác định data| commitAccount |
+| Prefix	 | save | Lưu data hiện có|saveAccount
+| Prefix	 | output | Xuất dữ liệu hiện có| outputAccount |
+| Prefix	 | export | Xuất dữ liệu hiện có| exportAccount|
+| Prefix	 | write | Write dữ liệu hiện có| writeAccount |
+| Prefix	 | store | Store dữ liệu hiện có| storeAccount |
+| Prefix	 | send | Gửi data hiện có| sendAccount |
+| Prefix	 | commit | Xác định data| commitAccount |
 
 
 7.Naming Convention for data manipulation (Read) 
@@ -157,13 +157,13 @@ Naming Convention for data manipulation (Read)
 ​
 | Place | Word | Meaning| Example|
 |---|---|---|---|
-| Tiền tố	 | get | Get data hiện có|getAccount
-| Tiền tố	 | load |Load data hiện có| loadAccount |
-| Tiền tố	 | input | Nhập data hiện có| inputAccount|
-| Tiền tố	 | import | Import data hiện có| importAccount |
-| Tiền tố	 | read | Read data| readAccount |
-| Tiền tố	 | restore | Restore data hiện có| restoreAccount |
-| Tiền tố	 | fetch | Get data hiện có| fetchAccount |
+| Prefix	 | get | Get data hiện có|getAccount
+| Prefix	 | load |Load data hiện có| loadAccount |
+| Prefix	 | input | Nhập data hiện có| inputAccount|
+| Prefix	 | import | Import data hiện có| importAccount |
+| Prefix	 | read | Read data| readAccount |
+| Prefix	 | restore | Restore data hiện có| restoreAccount |
+| Prefix	 | fetch | Get data hiện có| fetchAccount |
 
 
 8.Naming convention for data manipulation(verification) 
@@ -174,11 +174,11 @@ Naming convention for data manipulation(verification)
 ​
 | Place | Word | Meaning| Example|
 |---|---|---|---|
-| Tiền tố	 | check | Check data có phù hợp với điều kiện không|checkAccount
-| Tiền tố	 | test |Check xem data có thoả mãn điều kiện không| testAccount |
-| Tiền tố	 | validate | Validate data có đúng không| validateAccount|
-| Tiền tố	 | compare |So sánh data| compareAccount |
-| Tiền tố	 | verify | Verify data| verifyAccount |
+| Prefix	 | check | Check data có phù hợp với điều kiện không|checkAccount
+| Prefix	 | test |Check xem data có thoả mãn điều kiện không| testAccount |
+| Prefix	 | validate | Validate data có đúng không| validateAccount|
+| Prefix	 | compare |So sánh data| compareAccount |
+| Prefix	 | verify | Verify data| verifyAccount |
 
 
 9.Naming convention for permission / prohibition  
@@ -188,14 +188,14 @@ Naming convention for permission / prohibition
 ​
 | Place | Word | Meaning| Example|
 |---|---|---|---|
-| Tiền tố	 | allow | Cấp quyền sử dụng|allowAccount
-| Tiền tố	 | disallow |Bỏ cấp quyền sử dụng| disallowAccount |
-| Tiền tố	 | accept | Chấp nhận| acceptAccount|
-| Tiền tố	 | deny |Deny| denyAccount |
-| Tiền tố	 | refuse | Từ chối yêu cầu| refuseAccount |
-| Tiền tố	 | reject | Từ chối  yêu cầu| rejectAccount |
-| Tiền tố	 | grant | Cung cấp một loạt các quyền| grantAccount |
-| Tiền tố	 | revoke | Tước quyền| revokeAccount |
+| Prefix	 | allow | Cấp quyền sử dụng|allowAccount
+| Prefix	 | disallow |Bỏ cấp quyền sử dụng| disallowAccount |
+| Prefix	 | accept | Chấp nhận| acceptAccount|
+| Prefix	 | deny |Deny| denyAccount |
+| Prefix	 | refuse | Từ chối yêu cầu| refuseAccount |
+| Prefix	 | reject | Từ chối  yêu cầu| rejectAccount |
+| Prefix	 | grant | Cung cấp một loạt các quyền| grantAccount |
+| Prefix	 | revoke | Tước quyền| revokeAccount |
 
 
 10.Hungarian Notation 
@@ -209,25 +209,25 @@ List system hungarian notation
 ​
 | Place | Word | Meaning| Example|
 |---|---|---|---|
-| Tiền tố	 | b or f | Loại logic (binary)|bDirtyFlag
-| Tiền tố	 | ch |Loại ký tự (character)| chSeparator |
-| Tiền tố	 | by | loại byte| byGrayLevel|
-| Tiền tố	 | i or n |Loại số nguyên (integer)| nPower |
-| Tiền tố	 | l | Số nguyên dài (long)| lDate |
-| Tiền tố	 | ui | Số nguyên không dấu (unsigned integer)| uiCount |
-| Tiền tố	 | w | Loại word (word)| wLanguageCode |
-| Tiền tố	 | dw | Loại từ kép (dword)| dwSize |
-| Tiền tố	 | f or fp | Single-precision floating-point (float)| fPrice |
-| Tiền tố	 | d or dp | Double precision floating point type (double)| dPi |
-| Tiền tố	 | p or lp | Loại pointer (pointer)| pDirectSound |
-| Tiền tố	 | s | Loại string (string)| sPlayerName |
-| Tiền tố	 | sz | Zero-terminated string type (string zero)| szFileName |
-| Tiền tố	 | fn | Function pointer type (function pointer)| fnCallback |
-| Tiền tố	 | h | loại handle (handle)| hThread |
-| Tiền tố	 | g_ | biến global| g_iErrorCode |
-| Tiền tố	 | c_ | constant (const)| c_nBufferSize |
-| Tiền tố	 | s_ | Biến (static)| s_pLookupTable|
-| Tiền tố	 | m_ | Member variables| m_nLength|
+| Prefix	 | b or f | Loại logic (binary)|bDirtyFlag
+| Prefix	 | ch |Loại ký tự (character)| chSeparator |
+| Prefix	 | by | loại byte| byGrayLevel|
+| Prefix	 | i or n |Loại số nguyên (integer)| nPower |
+| Prefix	 | l | Số nguyên dài (long)| lDate |
+| Prefix	 | ui | Số nguyên không dấu (unsigned integer)| uiCount |
+| Prefix	 | w | Loại word (word)| wLanguageCode |
+| Prefix	 | dw | Loại từ kép (dword)| dwSize |
+| Prefix	 | f or fp | Single-precision floating-point (float)| fPrice |
+| Prefix	 | d or dp | Double precision floating point type (double)| dPi |
+| Prefix	 | p or lp | Loại pointer (pointer)| pDirectSound |
+| Prefix	 | s | Loại string (string)| sPlayerName |
+| Prefix	 | sz | Zero-terminated string type (string zero)| szFileName |
+| Prefix	 | fn | Function pointer type (function pointer)| fnCallback |
+| Prefix	 | h | loại handle (handle)| hThread |
+| Prefix	 | g_ | biến global| g_iErrorCode |
+| Prefix	 | c_ | constant (const)| c_nBufferSize |
+| Prefix	 | s_ | Biến (static)| s_pLookupTable|
+| Prefix	 | m_ | Member variables| m_nLength|
 
 
 11.Naming method 
@@ -286,6 +286,6 @@ Xác định từ trái nghĩa
     -   `Show` ⇔ `Hide`
 ​
 
-Thêm thông tin bằng cách sử dụng hậu tố / tiền tố
+Thêm thông tin bằng cách sử dụng hậu tố / Prefix
 :   Đặt một đơn vị vào biến lưu trữ giá trị.(`px` hoặc `ms` )
 ​
