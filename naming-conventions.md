@@ -254,7 +254,7 @@ Snake case
      ví dụ) `quoted_printable_encode`
 Chain case
 :   Nối từ bằng dấu gạch thường\
-     例) `Get-Process`
+     ví dụ) `Get-Process`
 ​
 
 12.Notes for naming 
@@ -263,20 +263,25 @@ Chain case
 Dùng từ rõ ràng
 :   Khi dùng những từ trừu tượng, hãy bao gồm thông tin rõ ràng như "ở
     đâu" và "cái gì" trong cách đặt tên.
+
 Tránh những tên chung chung
 :   -   Khi đặt tên, hãy cân nhắc xem chúng có mục đích gì
     -   Các biến để lưu trữ tạm thời thì là ngoại lệ
 ​
+
 Tránh những tên dài
 :   Thiết kế tên sao cho dài nhất có khoảng 20 ký tự. Tên dài khó đọc
     hơn, gõ rườm rà và gây ra lỗi chính tả. Ngoài ra, nếu từ viết tắt
     phổ biến như một quy ước, hãy làm theo ví dụ sau:(Ex：`average` thì
     viết thành `avg`
+
 Đặt tên sao cho  dễ hiểu
 :   Nếu tên viết tắt và nhầm lẫn với các yếu tố khác, hãy sử dụng tên có
     thể hiểu được mà không cần viết tắt nhiều hơn mức cần thiết.
+
 Sử dụng một tên cụ thể
 :   Bao gồm cụ thể những thông tin mà biến hoặc hàm đó đảm nhiệm .
+
 Xác định từ trái nghĩa
 :   Xác định đúng các từ trái nghĩa để có sự thống nhất trong quy ước
     đặt tên.
@@ -288,6 +293,7 @@ Xác định từ trái nghĩa
     -   `Input` ⇔ `Output`
     -   `Show` ⇔ `Hide`
 ​
+
 Thêm thông tin bằng cách sử dụng hậu tố / tiền tố
 :   Đặt một đơn vị vào biến lưu trữ giá trị.(`px` hoặc `ms` )
 ​
