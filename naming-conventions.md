@@ -236,15 +236,19 @@ List system hungarian notation
 Camelcase (Lower camel case)
 :   chữ cái đầu tiên của từ ghép là chữ thường\
      ví dụ) `getInputReader`
+
 Pascal case (Upper camel case)
 :   chữ cái đầu tiên của từ ghép là chữ Hoa\
      ví dụ) `GetInputReader`
+
 Snake case
 :   Nối từ bằng dấu \_\
      ví dụ) `quoted_printable_encode`
+
 Chain case
 :   Nối từ bằng dấu gạch thường\
      ví dụ) `Get-Process`
+
 
 12.Notes for naming 
 --------------------
