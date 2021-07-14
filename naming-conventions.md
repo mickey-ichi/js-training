@@ -2,7 +2,7 @@ Naming Convention List
 ======================
 
 1.  Naming convention for boolean value
-2.  Naming convention cho action related to
+2.  Naming convention for action related to
     string value
 3.  Naming convention for data manipulation
     (Add)
@@ -38,10 +38,10 @@ Naming convention for boolean value
 | Tiền tố	 | contains | Có chứa data hay properties không?| contains(item) |
 
 
-2.Naming convention cho action related to string value 
+2.Naming convention for action related to string value 
 --------------------------------------------------------
 ​
-Naming convention cho action related to
+Naming convention for action related to
 string value
 ​
 | Place | Word | Meaning| Example|
