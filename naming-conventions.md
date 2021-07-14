@@ -15,12 +15,13 @@ Naming Convention List
 7.  Naming convention for data manipulation
     (Read)
 8.  Naming convention for data manipulation
-    (verification/check/validate)
+    (Verification/Check/Validation)
 9.  Naming convention for permission / prohibition
 10. Hungarian Notation
 11. Naming Method
 12. Notes for naming
 ​
+    
 1.Naming convention for boolean value
 -----------------------------
 ​
@@ -37,6 +38,7 @@ Naming convention for boolean value
 | Tiền tố	 | contains | Có chứa data hay properties không?| contains(item) |
 ​
 ​
+
 2.Naming convention cho action related to string value 
 --------------------------------------------------------
 ​
@@ -55,6 +57,7 @@ string value
 | Tiền tố	 | parse | Phân tích dữ liệu hiện có| String.Parse() |
 ​
 ​
+
 3.Naming convention for data manipulation (add) 
 ---------------------------------------------
 ​
@@ -78,6 +81,7 @@ Naming convention for data manipulation (add)
 | Tiền tố	 | generate | Tạo file hoặc data theo 1 rule nào đó| generateFile |
 ​
 ​
+
 4.Naming convention for data manipulation (update)
 ---------------------------------------
 ​
@@ -105,6 +109,7 @@ Naming convention for data manipulation(update)
 | Tiền tố	 | to | Chuyển đổi dữ liệu hiện có sang cái gì| toString |
 ​
 ​
+
 5.Naming convention for data manipulation(delete) 
 -----------------------------------------------
 ​
@@ -133,6 +138,7 @@ Naming convention for data manipulation(delete)
 ​
 ​
 ​
+
 6.Naming convention for data manipulation(write)
 ---------------------------------------
 ​
@@ -148,6 +154,7 @@ Naming convention for data manipulation(write)
 | Tiền tố	 | send | Gửi data hiện có| sendAccount |
 | Tiền tố	 | commit | Xác định data| commitAccount |
 ​
+
 7.Naming Convention for data manipulation (Read) 
 ---------------------------------------------
 ​
@@ -165,6 +172,7 @@ Naming Convention for data manipulation (Read)
 | Tiền tố	 | fetch | Get data hiện có| fetchAccount |
 ​
 ​
+
 8.Naming convention for data manipulation(verification) 
 -----------------------------------------------------
 ​
@@ -180,6 +188,7 @@ Naming convention for data manipulation(verification)
 | Tiền tố	 | verify | Verify data| verifyAccount |
 ​
 ​
+
 9.Naming convention for permission / prohibition  
 ----------------------------------
 ​
@@ -197,6 +206,7 @@ Naming convention for permission / prohibition
 | Tiền tố	 | revoke | Tước quyền| revokeAccount |
 ​
 ​
+
 10.Hungarian Notation 
 ------------------
 ​
@@ -229,6 +239,7 @@ List system hungarian notation
 | Tiền tố	 | m_ | Member variables| m_nLength|
 ​
 ​
+
 11.Naming method 
 -------------
 ​
@@ -245,6 +256,7 @@ Chain case
 :   Nối từ bằng dấu gạch thường\
      例) `Get-Process`
 ​
+
 12.Notes for naming 
 --------------------
 ​
