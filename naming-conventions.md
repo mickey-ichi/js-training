@@ -233,6 +233,7 @@ List system hungarian notation
 11.Naming method 
 -------------
 ​
+
 Camelcase (Lower camel case)
 :   chữ cái đầu tiên của từ ghép là chữ thường\
      ví dụ) `getInputReader`
