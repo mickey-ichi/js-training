@@ -1,14 +1,6 @@
 Naming Convention List 
 ======================
-​
-Category: Programming
-​
-Posted: 2021.01.03
-​
-Updated: 2021.06.25
-​
-Mục lục
-​
+
 1.  Naming convention cho giá trị
     boolean
 2.  Naming convention cho action liên quan tới
