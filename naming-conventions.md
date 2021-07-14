@@ -36,8 +36,7 @@ Naming convention for boolean value
 | Tiền tố	 | has | Có cái data/ properties mong muốn không| hasConnection |
 | Tiền tố	 | exists | Có tồn tại data hoặc properties mong muốn không?| exists(dir) |
 | Tiền tố	 | contains | Có chứa data hay properties không?| contains(item) |
-​
-​
+
 
 2.Naming convention cho action related to string value 
 --------------------------------------------------------
@@ -55,8 +54,7 @@ string value
 | Tiền tố	 | replace | Thay thế dữ liệu hiện có| String.replace() |
 | Tiền tố	 | join | Kết hợp dữ liệu hiện có| String.join() |
 | Tiền tố	 | parse | Phân tích dữ liệu hiện có| String.Parse() |
-​
-​
+
 
 3.Naming convention for data manipulation (add) 
 ---------------------------------------------
@@ -79,8 +77,7 @@ Naming convention for data manipulation (add)
 | Tiền tố	 | build | Tập hợp dữ liệu và tệp từ dữ liệu hiện có| buildFile |
 | Tiền tố	 | from | Sử dụng data hiện có để tạo file hoặc data| fromConfigFile |
 | Tiền tố	 | generate | Tạo file hoặc data theo 1 rule nào đó| generateFile |
-​
-​
+
 
 4.Naming convention for data manipulation (update)
 ---------------------------------------
@@ -107,8 +104,7 @@ Naming convention for data manipulation(update)
 | Tiền tố	 | adapt | Điều chỉnh dữ liệu hiện có| adaptString |
 | Tiền tố	 | convert | Chuyển đổi dữ liệu hiện có| convertString |
 | Tiền tố	 | to | Chuyển đổi dữ liệu hiện có sang cái gì| toString |
-​
-​
+
 
 5.Naming convention for data manipulation(delete) 
 -----------------------------------------------
@@ -135,9 +131,7 @@ Naming convention for data manipulation(delete)
 | Tiền tố	 | adapt | Điều chỉnh dữ liệu hiện có| adaptString |
 | Tiền tố	 | convert | Chuyển đổi dữ liệu hiện có| convertString |
 | Tiền tố	 | to | Chuyển đổi dữ liệu hiện có sang cái gì| toString |
-​
-​
-​
+
 
 6.Naming convention for data manipulation(write)
 ---------------------------------------
@@ -153,7 +147,7 @@ Naming convention for data manipulation(write)
 | Tiền tố	 | store | Store dữ liệu hiện có| storeAccount |
 | Tiền tố	 | send | Gửi data hiện có| sendAccount |
 | Tiền tố	 | commit | Xác định data| commitAccount |
-​
+
 
 7.Naming Convention for data manipulation (Read) 
 ---------------------------------------------
@@ -170,8 +164,7 @@ Naming Convention for data manipulation (Read)
 | Tiền tố	 | read | Read data| readAccount |
 | Tiền tố	 | restore | Restore data hiện có| restoreAccount |
 | Tiền tố	 | fetch | Get data hiện có| fetchAccount |
-​
-​
+
 
 8.Naming convention for data manipulation(verification) 
 -----------------------------------------------------
@@ -186,8 +179,7 @@ Naming convention for data manipulation(verification)
 | Tiền tố	 | validate | Validate data có đúng không| validateAccount|
 | Tiền tố	 | compare |So sánh data| compareAccount |
 | Tiền tố	 | verify | Verify data| verifyAccount |
-​
-​
+
 
 9.Naming convention for permission / prohibition  
 ----------------------------------
@@ -204,8 +196,7 @@ Naming convention for permission / prohibition
 | Tiền tố	 | reject | Từ chối  yêu cầu| rejectAccount |
 | Tiền tố	 | grant | Cung cấp một loạt các quyền| grantAccount |
 | Tiền tố	 | revoke | Tước quyền| revokeAccount |
-​
-​
+
 
 10.Hungarian Notation 
 ------------------
@@ -237,8 +228,7 @@ List system hungarian notation
 | Tiền tố	 | c_ | constant (const)| c_nBufferSize |
 | Tiền tố	 | s_ | Biến (static)| s_pLookupTable|
 | Tiền tố	 | m_ | Member variables| m_nLength|
-​
-​
+
 
 11.Naming method 
 -------------
@@ -255,7 +245,6 @@ Snake case
 Chain case
 :   Nối từ bằng dấu gạch thường\
      ví dụ) `Get-Process`
-​
 
 12.Notes for naming 
 --------------------
