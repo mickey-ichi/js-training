@@ -1,10 +1,9 @@
 Naming Convention List 
 ======================
 
-1.  Naming convention cho giá trị
-    boolean
-2.  Naming convention cho action liên quan tới
-    string
+1.  Naming convention for boolean value
+2.  Naming convention cho action related to
+    string value
 3.  Naming convention for data manipulation
     (Add)
 4.  Naming convention for data manipulation
@@ -17,19 +16,15 @@ Naming Convention List
     (Read)
 8.  Naming convention for data manipulation
     (verification/check/validate)
-9.  Naming convention cho phép và
-    cấm
-10. Hungarian
-    Notation
-11. Naming
-    Method
-12. Các điểm chú ý khi đặt
-    tên
+9.  Naming convention for permission / prohibition
+10. Hungarian Notation
+11. Naming Method
+12. Notes for naming
 ​
-Naming convention for boolean 
+1.Naming convention for boolean value
 -----------------------------
 ​
-Naming convention for boolean
+Naming convention for boolean value
 ​
 | Place | Word | Meaning| Example|
 |---|---|---|---|
@@ -42,10 +37,11 @@ Naming convention for boolean
 | Tiền tố	 | contains | Có chứa data hay properties không?| contains(item) |
 ​
 ​
-Naming convention cho các hành động liên quan tới string 
+2.Naming convention cho action related to string value 
 --------------------------------------------------------
 ​
-Naming convention cho các hành động liên quan tới string
+Naming convention cho action related to
+string value
 ​
 | Place | Word | Meaning| Example|
 |---|---|---|---|
@@ -59,7 +55,7 @@ Naming convention cho các hành động liên quan tới string
 | Tiền tố	 | parse | Phân tích dữ liệu hiện có| String.Parse() |
 ​
 ​
-Naming convention for data manipulation (add) 
+3.Naming convention for data manipulation (add) 
 ---------------------------------------------
 ​
 Naming convention for data manipulation (add)
@@ -82,7 +78,7 @@ Naming convention for data manipulation (add)
 | Tiền tố	 | generate | Tạo file hoặc data theo 1 rule nào đó| generateFile |
 ​
 ​
-Naming convention for data manipulation (update)
+4.Naming convention for data manipulation (update)
 ---------------------------------------
 ​
 Naming convention for data manipulation(update)
@@ -109,7 +105,7 @@ Naming convention for data manipulation(update)
 | Tiền tố	 | to | Chuyển đổi dữ liệu hiện có sang cái gì| toString |
 ​
 ​
-Naming convention for data manipulation(delete) 
+5.Naming convention for data manipulation(delete) 
 -----------------------------------------------
 ​
 Naming convention for data manipulation(delete)
@@ -137,7 +133,7 @@ Naming convention for data manipulation(delete)
 ​
 ​
 ​
-Naming convention for data manipulation(write)
+6.Naming convention for data manipulation(write)
 ---------------------------------------
 ​
 Naming convention for data manipulation(write)
@@ -152,7 +148,7 @@ Naming convention for data manipulation(write)
 | Tiền tố	 | send | Gửi data hiện có| sendAccount |
 | Tiền tố	 | commit | Xác định data| commitAccount |
 ​
-Naming Convention for data manipulation (Read) 
+7.Naming Convention for data manipulation (Read) 
 ---------------------------------------------
 ​
 ​
@@ -169,7 +165,7 @@ Naming Convention for data manipulation (Read)
 | Tiền tố	 | fetch | Get data hiện có| fetchAccount |
 ​
 ​
-Naming convention for data manipulation(verification) 
+8.Naming convention for data manipulation(verification) 
 -----------------------------------------------------
 ​
 ​
@@ -184,10 +180,10 @@ Naming convention for data manipulation(verification)
 | Tiền tố	 | verify | Verify data| verifyAccount |
 ​
 ​
-Naming convention về cho phép/ cấm 
+9.Naming convention for permission / prohibition  
 ----------------------------------
 ​
-Naming convention về cho phép/ cấm
+Naming convention for permission / prohibition
 ​
 | Place | Word | Meaning| Example|
 |---|---|---|---|
@@ -201,7 +197,7 @@ Naming convention về cho phép/ cấm
 | Tiền tố	 | revoke | Tước quyền| revokeAccount |
 ​
 ​
-Hungarian Notation 
+10.Hungarian Notation 
 ------------------
 ​
 Ký hiệu Hungary là một quy ước đặt tên định danh trong lập trình máy
@@ -233,10 +229,10 @@ List system hungarian notation
 | Tiền tố	 | m_ | Member variables| m_nLength|
 ​
 ​
-Naming method 
+11.Naming method 
 -------------
 ​
- Camelcase (Lower camel case)
+Camelcase (Lower camel case)
 :   chữ cái đầu tiên của từ ghép là chữ thường\
      ví dụ) `getInputReader`
 Pascal case (Upper camel case)
@@ -249,10 +245,10 @@ Chain case
 :   Nối từ bằng dấu gạch thường\
      例) `Get-Process`
 ​
-Các điểm khi đặt tên 
+12.Notes for naming 
 --------------------
 ​
-dùng từ rõ ràng
+Dùng từ rõ ràng
 :   Khi dùng những từ trừu tượng, hãy bao gồm thông tin rõ ràng như "ở
     đâu" và "cái gì" trong cách đặt tên.
 Tránh những tên chung chung
@@ -264,7 +260,7 @@ Tránh những tên dài
     hơn, gõ rườm rà và gây ra lỗi chính tả. Ngoài ra, nếu từ viết tắt
     phổ biến như một quy ước, hãy làm theo ví dụ sau:(Ex：`average` thì
     viết thành `avg`
-Làm cho tên dễ hiểu
+Đặt tên sao cho  dễ hiểu
 :   Nếu tên viết tắt và nhầm lẫn với các yếu tố khác, hãy sử dụng tên có
     thể hiểu được mà không cần viết tắt nhiều hơn mức cần thiết.
 Sử dụng một tên cụ thể
