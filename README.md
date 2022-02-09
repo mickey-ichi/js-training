@@ -54,7 +54,8 @@
 - Create pull request
 - Resolve conflict
 
-LGTM
+LGTM Frontend
+
 - [ ] i18n 
 - [ ] Front Directory Structure
 - [ ] Storybook 
