@@ -56,8 +56,9 @@
 
 LGTM Frontend
 
-- [ ] i18n 
+- [x] i18n 
 - [ ] Front Directory Structure
 - [ ] Storybook 
-- [ ] Components details 
+- [ ] Test
+- [x] Components details 
 
