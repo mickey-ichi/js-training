@@ -54,9 +54,9 @@
 - Create pull request
 - Resolve conflict
 
-##LGTM 
+## LGTM 
 
-###Frontend
+### Frontend
 
 - [x] i18n 
 - [ ] Front Directory Structure
@@ -64,7 +64,7 @@
 - [ ] Testing
 - [x] Components details 
 
-###Backend
+### Backend
 - [x] API Directory Structure 
 - [ ] Testing
 - [ ] Documents 
